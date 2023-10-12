@@ -6,6 +6,7 @@ import java.time.LocalDate;
 import org.apache.commons.lang3.StringUtils;
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Задачи по теме Условный оператор ч1");
         //Задача1
         System.out.println("Задача1");
         Scanner in = new Scanner(System.in);
