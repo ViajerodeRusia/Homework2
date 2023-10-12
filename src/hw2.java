@@ -103,6 +103,5 @@ public class hw2 {
             default:
                 System.out.println("Некорректные данные");
         }
-        System.out.println();
         }
     }
