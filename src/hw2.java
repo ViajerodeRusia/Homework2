@@ -57,22 +57,20 @@ public class hw2 {
         System.out.println("Задача4");
         System.out.println("Введите расстояние");
         int deliveryDistance = in.nextInt();
-        int days;
+        int days=0;
         if (deliveryDistance<=20) {
             days=1;
-            System.out.println("Потребуется дней:" + days);
         }
         else if (deliveryDistance>20 && deliveryDistance<=60) {
             days=2;
-            System.out.println("Потребуется дней:" + days);
         }
         else if (deliveryDistance>60 && deliveryDistance<=100) {
             days=3;
-            System.out.println("Потребуется дней:" + days);
         }
         else if (deliveryDistance>100) {
             System.out.println("Доставки нет");
         }
+        System.out.println("Потребуется дней:" + days);
         System.out.println();
 
         //Задача5
